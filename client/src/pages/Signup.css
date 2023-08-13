@@ -1,0 +1,23 @@
+.signup_image--container{
+    background-image:url(https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    height:90vh;
+    background-size:cover;
+}
+.signup_form--container,.Login_form--container{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+.login_image--container {
+    background-image: url(https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    height: 90vh;
+    background-size: cover;
+}
+
+@media screen and (max-width:756px){
+    .login_image--container,.signup_image--container{
+        display: none;
+    }
+}
